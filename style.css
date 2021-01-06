@@ -257,50 +257,66 @@ img {
 }
 
 
-
-
-
-#extra-part {
-    margin: 0% 10%;
-    margin-top: 50px;
-    overflow: hidden;
-    padding: 50px;
+/*==========*/
+ #extra-part{
+     margin-top: 100px;
+     font-weight: normal;
+     font-family: cursive;
+ }
+.full{
+    box-sizing: border-box;
+   margin: 0;
+    padding: 0;
 }
 
-.extra-part {
-    overflow: hidden;
-    width: 600px;
-    height: auto;
-    margin-left: 170px;
-   box-shadow: 10px 10px 40px grey;
-   border: 10px solid #fff;
-   background: #fff;
-}
-.extra-part input{
-    display: block;
+.full-form{
+    background: #F16529;
+    color: #fff;
+    max-width: 400px;
+    height: 420px;
     padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 0 100px #F16529;
+   
+}
+label{
+    display: block;
+}
+input{
     width: 100%;
-    background: #C8C8C8;
-    margin-bottom: 2px;
-    color: #fff;
-    border: 0px;
-}
-.extra-part input[type=submit]{
-    background: #C8C8C8;
-    border: 0px;
-    color: #fff;
-    border: 0px;
+    border-radius: 5px;
     cursor: pointer;
+    border: 0;
+    padding: 5px;
 }
-.extra-part textarea{
-    display: block;
-    padding: 10px 20px;
-    width: 100%; 
-    background: #C8C8C8;
-    margin-bottom: 2px;
-    color: #fff;
-    border: 0px;
+.f{
+   text-align: center; 
 }
+.f1{
+  margin-bottom: 10px;
+}
+.f2{
+    width: 150px;
+    float: left;
+   margin-top: 10px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+.f2 input{
+    background: rgba(255, 0, 0, 0.79);
+    color: aliceblue;
+    font-size: 15px;
+    font-family: cursive;
+    letter-spacing: 4px;
+}
+
+ 
+
+
+/*==========*/
+
+
 
 
 
@@ -323,8 +339,11 @@ img {
     color: #7D7C83;
     margin: 0px;
 }
+.six-section a{
+   text-decoration: none; 
+}
 
-.six-section h2 {
+.six-section  h2 {
     font-size: 35px;
     color: #363958;
     margin: 0px;
